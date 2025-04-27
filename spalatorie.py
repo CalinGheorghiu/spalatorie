@@ -43,10 +43,14 @@ st.title("Înregistrare Cantitate Zilnică")
 
 # Lista de clienți disponibili pentru selecție
 clients = [
-    "C. REGALA", "MELISS", "DEVESELU", "Portughezi", "BUCOVAT",
-    "LICEUL MILITAR - INFIR", "LICEUL MILITAR - Stănus", "LICEUL MILITAR - Rojistean", "LICEUL MILITAR - Dincă",
-    "VOILA", "Cârcea Grad.", "Helin", "Catalin", "Albesti", "Evelina", "Casablanca", "Coliseum"
+    "C. REGALĂ", "MELISS", "DEVESELU", "Portughezi", "BUCOVĂȚ",
+    "LICEUL MILITAR - INFIR", "LICEUL MILITAR - Stănuș", "LICEUL MILITAR - Rojiștean", "LICEUL MILITAR - Dincă", "LICEUL MILITAR - Nicolita",
+    "BABA NOV", "HOTEL - PARC", "GRĂD. IȘALNIȚA", "RAMADA", "Ramada spa",
+    "UM 01178", "Spital", "Relax", "Epoca", "Cami - apart",
+    "Emil", "VOILA", "Akropolis", "Cârcea Grad.", "Helin",
+    "Catalin - airbnb", "Albești", "Evelina", "Casablanca", "Coliseum"
 ]
+
 
 # Selectează clientul din lista disponibilă
 client = st.selectbox("Selectează Clientul", sorted(clients))

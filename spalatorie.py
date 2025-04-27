@@ -32,8 +32,8 @@ def save_data(df):
     }
     requests.post(SHEETDB_API_URL, json=payload)
 
-# Obține data curentă
-today = datetime.date.today().strftime("%Y-%m-%d")
+# Obține data curentă în format românesc D-M-Y
+today = datetime.date.today().strftime("%d-%m-%Y")
 
 # Încarcă datele existente
 data = load_data()
